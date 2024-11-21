@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm Kiếm</title>
+
+    <!-- Tải CSS -->
+    <link rel="stylesheet" href="http://cdn.duyvo26.xyz/jqbtk-master/bootstrap.min.css">
+    <link rel="stylesheet" href="http://cdn.duyvo26.xyz/jqbtk-master/jqbtk.css">
+</head>
+<body>
+
+    <!-- Ô tìm kiếm -->
+    <input type="text" id="searchInput" class="keyboard form-control search-input" placeholder="Tìm kiếm theo tên">
+
+    <!-- Tải jQuery trước các script khác -->
+    <script src="http://cdn.duyvo26.xyz/jqbtk-master/jquery.min.js"></script>
+    <script src="http://cdn.duyvo26.xyz/jqbtk-master/bootstrap.min.js"></script>
+    <script src="http://cdn.duyvo26.xyz/jqbtk-master/jqbtk.js"></script>
+
+    <script>
+      $(function() {
+        $('#searchInput').keyboard(); // Khởi tạo bàn phím ảo cho ô tìm kiếm
+      });
+    </script>
+
+</body>
+</html>
